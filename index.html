@@ -18,7 +18,7 @@
             border-radius: 160px;
         }
 
-        div {
+        .hrline {
             position: absolute;
             background-image: linear-gradient(to right, transparent, rgb(0, 0, 0), transparent);
             left: 5%;
@@ -28,9 +28,15 @@
             margin: 0px;
         }
 
-        p,
-        li {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        #tagline{
+            margin-top: -16px;
+            margin-bottom: 0px;
+            padding-bottom: 16px;
+            font-size: large;
+        }
+        #stats li {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: 5px;
         }
 
         #t1 {
@@ -98,21 +104,20 @@
 <body>
     <img src="ROYS CODES.png" alt="logo" height="250px" width="250px">
     <h1>Rohit Roy</h1>
-    <p>Software R&D Enthusiasts <br>
+    <p id="tagline">Software R&D Enthusiasts <br>
         <em>Founder of <strong>MetaBlog</strong> (coming soon...)</em>
     </p>
 
-    <div></div>
+    <div class="hrline"></div>
 
     <h2>Current Status</h2>
-    <p>
+    <div id="stats">
         <li> <strong>Student</strong> at <em>St. Xavier's Autonomous College, Kolkata</em> </li>
-        <li> <strong>Course:</strong> BSc Computer Science Honors </li>
-        <li> <strong>Interests:</strong> Full Stack Web developer, Networking & Security, Graphics desingning, Blogging,
-            Content creating</li>
-    </p>
-
-    <div></div>
+        <li> <strong>Course:</strong> BSc Computer Science Honours </li>
+        <li> <strong>Interests:</strong> <em>Full Stack Web developer, Networking & Security, Graphics desingning, Blogging, Content creating</em></li>
+    </div>
+    <br>
+    <div class="hrline"></div>
 
     <h2>Education</h2>
 
@@ -127,7 +132,7 @@
         </tr>
     </table>
     <br>
-    <div></div>
+    <div class="hrline"></div>
 
     <h2>Get in Touch</h2>
 
