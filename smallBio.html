@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Roy - Profile</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(rgb(38, 30, 153), rgb(14, 150, 204), rgb(196, 40, 40));
+            background-repeat: no-repeat;
+        }
+
+        img {
+            margin-top: 10px;
+            border-radius: 160px;
+        }
+
+        div {
+            position: absolute;
+            background-image: linear-gradient(to right, transparent, rgb(0, 0, 0), transparent);
+            left: 5%;
+            right: 5%;
+            width: 90%;
+            height: 3px;
+            margin: 0px;
+        }
+
+        p,
+        li {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #t1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: left;
+            margin: auto;
+        }
+
+        #t2 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            background: linear-gradient(90deg, rgb(27, 152, 190), rgb(11, 190, 41), rgb(218, 196, 7), rgb(236, 130, 8), rgb(218, 73, 73), rgb(206, 53, 236), rgb(27, 152, 190));
+            box-shadow: 0 0 10px rgb(27, 152, 190), 0 0 30px rgb(27, 152, 190);
+        }
+
+        #t2 td {
+            width: 120px;
+            height: 45px;
+            background-color: black;
+            border-radius: 5px;
+        }
+
+        @media only screen and (max-width:472px) {
+            .links {
+                color: rgb(240, 248, 255);
+                text-decoration: none;
+                /* padding: 7px; */
+                padding-left: 21px;
+                padding-right: 21px;
+            }
+        }
+
+        @media only screen and (min-width:472px) {
+            .links {
+                color: rgb(240, 248, 255);
+                text-decoration: none;
+                padding: 7px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+
+        #t2 td:hover {
+            background: linear-gradient(90deg, rgb(27, 152, 190), rgb(11, 190, 41), rgb(218, 196, 7), rgb(236, 130, 8), rgb(218, 73, 73), rgb(206, 53, 236), rgb(27, 152, 190));
+            background-size: 400%;
+            animation: animate 10s linear infinite;
+            color: coral;
+            transition-duration: 600ms;
+            cursor: pointer;
+
+        }
+
+        @keyframes animate {
+            0% {
+                background-position: 0%;
+            }
+
+            100% {
+                background-position: 400%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="ROYS CODES.png" alt="logo" height="250px" width="250px">
+    <h1>Rohit Roy</h1>
+    <p>Software R&D Enthusiasts <br>
+        <em>Founder of <strong>MetaBlog</strong> (coming soon...)</em>
+    </p>
+
+    <div></div>
+
+    <h2>Current Status</h2>
+    <p>
+        <li> <strong>Student</strong> at <em>St. Xavier's Autonomous College, Kolkata</em> </li>
+        <li> <strong>Course:</strong> BSc Computer Science Honors </li>
+        <li> <strong>Interests:</strong> Full Stack Web developer, Networking & Security, Graphics desingning, Blogging,
+            Content creating</li>
+    </p>
+
+    <div></div>
+
+    <h2>Education</h2>
+
+    <table id="t1">
+        <tr>
+            <td><strong>🔸 2007-21</strong></td>
+            <td>&nbsp; Studied at <strong><em>The Assembly of God Church School, Tollygunge</em></strong></td>
+        </tr>
+        <tr>
+            <td><strong>🔸 2021-present</strong></td>
+            <td>&nbsp; Studying at <strong><em>St. Xavier's Autonomous College, Kolkata</em></strong></td>
+        </tr>
+    </table>
+    <br>
+    <div></div>
+
+    <h2>Get in Touch</h2>
+
+    <table id="t2">
+        <tr>
+            <td>
+                <a href="https://github.com/DeRoyace" class="links" id="github">GitHub</a>
+            </td>
+            <td>
+                <a href="https://twitter.com/deRohitRoyace" class="links" id="tweet">Twitter</a>
+            </td>
+            <td>
+                <a href="https://www.linkedin.com/in/rohit-roy-51b2b6222/" class="links" id="lnkd">LinkedIn</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.quora.com/profile/Rohit-Roy-1187" class="links" id="quora">Quora</a>
+            </td>
+            <td>
+                <a href="https://www.instagram.com/de_rohit_roy/" class="links" id="insta">Instagram</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/channel/UCH6ALEpyDJBjhrPT7SssWqg" class="links" id="vlogs">YouTube</a>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <p>© Copyright Roys Codes</p>
+</body>
+
+</html>
